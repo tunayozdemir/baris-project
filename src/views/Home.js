@@ -8,9 +8,9 @@ function Home() {
       <AppAbout />
       <AppFeature />
       <AppWorks />
-      <AppFaq />
-      <AppPricing />
-      <AppContact />
+      {/* <AppFaq /> */}
+      {/* <AppPricing /> */}
+      {/* <AppContact /> */}
     </div>
   )
 }
