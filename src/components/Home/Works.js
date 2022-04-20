@@ -24,13 +24,15 @@ function Works() {
           <Button size="large" onClick={showModal}><i className="fas fa-play"></i></Button>
         </div>
         <Modal
-          title="Woocommerce Tutorial"
+          title="Demo Video"
           visible={visible}
           onCancel={handleCancel}
           footer={null}
           destroyOnClose={true}
         >
-          <iframe title="Woocommerce Tutorial" width="100%" height="350" src="https://www.youtube.com/embed/8f8_JYIzOno?list=PLiUrl-SQRR7LQINGQGE99pXWDuKq4SxfU"></iframe>
+
+          <iframe title="Demo Video" width="100%" height="315" src="https://www.youtube.com/embed/P_rbC-qgB5o" ></iframe>
+
         </Modal>
       </div>
     </div>
