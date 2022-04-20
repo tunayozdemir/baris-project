@@ -47,9 +47,9 @@ function Header() {
               <Link href="#about" title="About" />
               <Link href="#feature" title="Features" />
               <Link href="#works" title="How it works" />
-              <Link href="#faq" title="FAQ" />
-              <Link href="#pricing" title="Pricing" />
-              <Link href="#contact" title="Contact" />
+              {/* <Link href="#faq" title="FAQ" /> */}
+              {/* <Link href="#pricing" title="Pricing" /> */}
+              {/* <Link href="#contact" title="Contact" /> */}
             </Anchor>
           </Drawer>
         </div>
