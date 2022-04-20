@@ -284,12 +284,16 @@ how it works
 ------------
 */
 .worksBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: url('assets/images/bg-works.jpg') no-repeat;
   background-position: 50% 0;
   background-size: cover;
   background-attachment: fixed;
   color: #fff;
   position: relative;
+  min-height: 600px;
 }
 
 .worksBlock:before {
@@ -392,7 +396,7 @@ footer
 .ant-layout-footer {
   background: #111 !important;
   color: #fff !important;
-  padding: 60px 0 !important;
+  padding: 132px 0 !important;
   text-align: center;
 }
 

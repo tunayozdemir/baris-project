@@ -33,9 +33,7 @@ function Header() {
           </Anchor>
         </div>
         <div className="mobileVisible">
-          <Button type="primary" onClick={showDrawer}>
-            <i className="fas fa-bars"></i>
-          </Button>
+          <Button type="primary" onClick={showDrawer}> <i className="fas fa-bars"></i></Button>
           <Drawer
             placement="right"
             closable={false}
