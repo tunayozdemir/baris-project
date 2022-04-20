@@ -1,5 +1,5 @@
 import React from 'react'
-import { AppAbout, AppContact, AppFaq, AppFeature, AppHero, AppPricing, AppWorks } from '../components/Home'
+import { AppAbout, AppFeature, AppHero, AppWorks } from '../components/Home'
 
 function Home() {
   return (
